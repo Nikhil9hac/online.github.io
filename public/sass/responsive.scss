@@ -1,0 +1,64 @@
+@media only screen and (max-width: 991px) {
+  html{
+    font-size: 55%;
+  }
+    .navbar-toggler{
+      position: absolute;
+      right: 3%;
+      top: 20px;
+      font-size: 17px;
+    }
+   .navbar>.container-fluid{
+      display: block;
+    }
+    .nav-item{
+      background-color: #212529;
+      width: 20vw;
+      height: 5rem;
+    }
+    .navbar-material{
+      right: 0rem;
+    }
+    .right{
+      img{
+        height: 27rem;
+      }
+    }
+    .left{
+      margin-left: 3rem;
+      margin-bottom: 0%;
+      p{
+        font-size: 2.3rem;
+      }
+    }
+    #intro{
+      font-size: 3rem;
+    }
+    #btn1{
+      height: 5rem;
+    font-size: 1.8rem;
+    width: 13rem;
+    }
+    .container-bg{
+      height: 57rem;
+    }
+  }
+  @media only screen and (max-width: 645px){
+    .nav-item{
+      width: 34vw;
+      height: 5.5rem;  
+    }
+    .container-bg{
+      flex-direction: column-reverse;
+    }
+    .left{
+      width: 100%;
+      margin-top: 2rem;
+      margin-left: 0%;
+    }
+    #btn1{
+      height: 5.5rem;
+      font-size: 2.1rem;
+      width: 16rem;
+    }
+  }
