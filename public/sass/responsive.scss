@@ -13,11 +13,13 @@
     }
     .nav-item{
       background-color: #212529;
-      width: 20vw;
       height: 5rem;
     }
     .navbar-material{
-      right: 0rem;
+      width: 100vw;
+      margin-top: 7px;
+      position: absolute;
+      left: 0%;
     }
     .right{
       img{
@@ -45,11 +47,17 @@
   }
   @media only screen and (max-width: 645px){
     .nav-item{
-      width: 34vw;
+      // width: 34vw;
       height: 5.5rem;  
+    }
+    .right{
+      img{
+        height: 23rem;
+      }
     }
     .container-bg{
       flex-direction: column-reverse;
+      margin-top: -25%;
     }
     .left{
       width: 100%;
@@ -57,8 +65,20 @@
       margin-left: 0%;
     }
     #btn1{
-      height: 5.5rem;
-      font-size: 2.1rem;
-      width: 16rem;
+      height: 4.5rem;
+    font-size: 2rem;
+    width: 14rem;
+    }
+    #intro{
+      font-size: 2rem;
+    }
+    .left p {
+      font-size: 1.8rem;
+  }
+    .navbar-material{
+      width: 100vw;
+      margin-top: 7px;
+      position: absolute;
+      left: 0%;
     }
   }
