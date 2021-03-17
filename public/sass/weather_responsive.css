@@ -1,0 +1,72 @@
+@media only screen and (max-width: 990px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 3%;
+    top: 20px;
+    font-size: 17px;
+  }
+  .navbar > .container-fluid {
+    display: block;
+  }
+  .nav-item {
+    background-color: #212529;
+    height: 5rem;
+  }
+  .navbar-material {
+    width: 100vw;
+    margin-top: 7px;
+    position: absolute;
+    left: 0%;
+  }
+}
+
+@media only screen and (max-width: 716px) {
+  input[type=text] {
+    width: 54rem;
+  }
+  .box {
+    width: 39rem;
+    height: 23rem;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 552px) {
+  input[type=text] {
+    width: 44rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  input[type=text] {
+    width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  input[type=text] {
+    width: 30rem;
+  }
+  .box {
+    width: 32rem;
+    height: 21rem;
+  }
+}
+
+@media only screen and (max-width: 303px) {
+  input[type=text] {
+    width: 27rem;
+  }
+  input[type=button] {
+    width: 8rem;
+  }
+  .box {
+    width: 23rem;
+    height: 18rem;
+    font-size: 1.5rem;
+  }
+  #city {
+    font-size: 2.5rem;
+  }
+}
+/*# sourceMappingURL=weather_responsive.css.map */

@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+nav{
+    height: 9rem;
+    font-size:2rem;
+}
+.navbar-material{
+    position: absolute;
+    right: 9%;
+}
+.temperature{
+    font-size:2.2rem;
+    position:relative;
+    left:1.5rem;
+}
+.another-page{
+    text-decoration: none;
+    letter-spacing:1px;
+    margin-left: 2rem;
+    color: rgb(238, 232, 232);
+    transition: color 0.5s;
+    &:hover{
+        color: #3498db !important;
+        transition: color 0.5s;
+    }
+}
+.fa-snowflake{
+    color:#3498db;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    animation:snowMove linear 1s infinite;
+}
+@keyframes snowMove {
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+// desinging middle ::content
+.container-bg{
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: -3%;
+}
+.top{
+    position: relative;
+    display: flex;
+}
+input[type=text]{
+    width: 70rem;
+    border-radius: 15px;
+    height: 4.8rem;
+    background-color: #212529;
+    outline: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 2rem;
+}
+input[type=button]{
+    background-color: #3498db;
+    width: 11rem;
+    height: 4.8rem;
+    font-size: 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    outline: none;
+    position: absolute;
+    right: 0px;
+}
+.box{
+    position: relative;
+    width: 48rem;
+    height: 25rem;
+    background-color: #212529;
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+#city{
+    position: absolute;
+    font-size: 3rem;
+    top: 2rem;
+    margin-left: -2rem;
+    position: absolute;
+    font-size: 3rem;
+}
+#maxTemp{
+    margin-top: 3rem;
+}
+// ending
+footer{
+    width: 100%;
+    color: #fff;
+    text-transform: capitalize;
+    height: 3rem;
+    background-color: #2c3e50;
+    font-size:1.5rem;
+}
