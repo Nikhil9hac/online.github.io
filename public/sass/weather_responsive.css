@@ -29,6 +29,9 @@
     height: 23rem;
     font-size: 2rem;
   }
+  #day {
+    top: 17%;
+  }
 }
 
 @media only screen and (max-width: 552px) {
@@ -50,6 +53,15 @@
   .box {
     width: 32rem;
     height: 21rem;
+    font-size: 1.6rem;
+  }
+  .box img {
+    top: 2%;
+    right: 2%;
+    height: 81px;
+  }
+  #city {
+    font-size: 2.3rem;
   }
 }
 
@@ -65,8 +77,12 @@
     height: 18rem;
     font-size: 1.5rem;
   }
+  .box img {
+    height: 63px;
+  }
   #city {
-    font-size: 2.5rem;
+    top: 4%;
+    font-size: 2.3rem;
   }
 }
 /*# sourceMappingURL=weather_responsive.css.map */

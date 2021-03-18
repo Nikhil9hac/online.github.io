@@ -136,6 +136,12 @@ input[type=button] {
   right: 0px;
 }
 
+#day {
+  position: relative;
+  top: 14%;
+  font-size: 1.5rem;
+}
+
 .box {
   position: relative;
   width: 48rem;
@@ -156,7 +162,13 @@ input[type=button] {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: capitalize;
-  font-size: 2rem;
+  font-size: 1.7rem;
+}
+
+.box img {
+  position: absolute;
+  top: -2%;
+  right: 2%;
 }
 
 #city {
@@ -179,5 +191,10 @@ footer {
   height: 3rem;
   background-color: #2c3e50;
   font-size: 1.5rem;
+}
+
+input[type=button]:hover {
+  background-color: #61e661;
+  color: #212529;
 }
 /*# sourceMappingURL=weather.css.map */

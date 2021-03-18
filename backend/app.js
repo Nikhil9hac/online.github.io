@@ -4,7 +4,9 @@ const fs=require('fs');
 const path = require('path');
 const public=path.join(__dirname,'../public');
 const templates=path.join(__dirname,'views/templates');
-const hbs=require('hbs')
+const hbs=require('hbs');
+const request=require('request');
+const { json } = require('express');
 app.use(express.static(public));
 // setting templates engine  and registered templates
 app.set('view engine','hbs');
@@ -24,7 +26,7 @@ app.get('/about',(req, res) =>{
      })
         
 })
-app.get('/weather',(req, res) =>{
+app.get('*/weather',(req, res) =>{
     res.render('weather')
 })
 app.get('*',(req, res) =>{
