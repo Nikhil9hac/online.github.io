@@ -11,7 +11,7 @@ const partial1=` <div class="container-fluid">
                 <a class="another-page" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="another-page">Weather</a>
+                <a class="another-page" href="weather">Weather</a>
                 </li>
                 <li class="nav-item">
                 <a class="another-page" href="/about">About</a>

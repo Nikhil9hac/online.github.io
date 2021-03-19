@@ -7,6 +7,7 @@ const templates=path.join(__dirname,'views/templates');
 const hbs=require('hbs');
 const request=require('request');
 const { json } = require('express');
+const port=process.env.PORT || 8000;
 app.use(express.static(public));
 // setting templates engine  and registered templates
 app.set('view engine','hbs');
@@ -32,4 +33,4 @@ app.get('*/weather',(req, res) =>{
 app.get('*',(req, res) =>{
     res.send('oops page not found')
 })
-app.listen(8000);
+app.listen(port);
