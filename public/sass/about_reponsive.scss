@@ -64,3 +64,16 @@
         }
     }
 }
+@media only screen and (max-width: 645px) and (max-height:500px){
+    .navbar-toggler{
+      position: absolute;
+      top: 11%;
+      right: 7%;  
+    }
+    .navbar-material {
+        width: 100vw;
+        margin-top: 2px;
+        position: absolute;
+        left: 0%;
+    }
+  }
