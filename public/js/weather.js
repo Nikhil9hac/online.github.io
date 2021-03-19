@@ -9,7 +9,7 @@ const day=document.getElementById('day');
 btn1.addEventListener('click',()=>{
     const inputArea=document.getElementById('inputCity').value;
     const getInfo=async()=>{
-        const res=await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${inputArea}&appid=1f85633f522afbfbd38645d120f80841`);
+        const res=await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputArea}&appid=1f85633f522afbfbd38645d120f80841`);
         const data=await res.json();
         const array1=Array(data);
         console.log(array1);
